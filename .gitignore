@@ -1,0 +1,104 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyTorch / model weights
+*.pt
+*.pth
+best.pt
+weights/
+
+# Datasets, generated data and training outputs
+data/
+datasets/
+train/images/
+train/labels/
+valid/images/
+valid/labels/
+test/images/
+test/labels/
+runs/
+logs/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.*
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model export and build artifacts
+*.onnx
+*.tflite
+*.pb
+
+# Misc
+*.log
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+env/
+venv/
+.vscode/
+.idea/
+*.pth
+*.ckpt
+# Model weights and large artifacts
+best.pt
+*.pt
+weights/
+runs/
+logs/
+*.log
+data.yaml
+dataset/
+
+# Vendored YOLOv5: ignore packaged weights and git metadata
+/yolov5-master/best.pt
+/yolov5-master/yolov5s.pt
+/yolov5-master/*.pt
+/yolov5-master/.git/
+
+# Dataset images and large media (keep labels if desired)
+/train/images/
+/valid/images/
+/test/images/
+**/images/*.jpg
+**/images/*.jpeg
+**/images/*.png
+
+# backup / archive files
+*.zip
+*.tar.gz
+*.tgz
+
